@@ -1935,3 +1935,15 @@ article.blog {
 .navbar-list li:nth-child(4) {
   display: none !important;
 }
+
+/* Sidebar logo styling */
+.logo-box {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.site-logo {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
