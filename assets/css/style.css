@@ -1886,6 +1886,35 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 }
 
+/* All rights reserved footer */
+.footer {
+  background: var(--eerie-black-2);
+  color: var(--light-gray);
+  text-align: center;
+  padding: 20px 15px;
+  font-size: var(--fs-8);
+  border-top: 1px solid var(--jet);
+  margin-top: 40px;
+}
+
+.footer-name {
+  color: var(--white-2);
+  font-weight: var(--fw-500);
+}
+
+.footer a {
+  color: var(--orange-yellow-crayola);
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+/* keep footer text on one line */
+.footer p {
+  white-space: nowrap;
+}
+
 /* hide testimonials & clients entirely */
 .testimonials,
 .clients,
