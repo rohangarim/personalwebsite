@@ -1911,9 +1911,6 @@ textarea.form-input::-webkit-resizer { display: none; }
   text-decoration: underline;
 }
 /* keep footer text on one line */
-.footer p {
-  white-space: nowrap;
-}
 
 /* hide testimonials & clients entirely */
 .testimonials,
