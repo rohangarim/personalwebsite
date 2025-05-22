@@ -559,6 +559,11 @@ main {
    line-height: 1.6;
  }
 
+ .responsive-img {
+  display: block;    /* remove inline whitespace */
+  max-width: 100%;   /* never grow past its container */
+  height: auto;      /* scale height to preserve aspect‐ratio */
+}
 /**
  * #testimonials 
  */
@@ -1924,14 +1929,14 @@ textarea.form-input::-webkit-resizer { display: none; }
 –––––––––––––––––––––––––––––––––––––––––––––*/
 
 /* hide the content articles */
-article.portfolio,
+/*article.portfolio,*/
 article.blog {
   display: none !important;
 }
 
 /* hide the corresponding navbar items
    (About is 1, Resume is 2, Portfolio is 3, Blog is 4, Contact is 5) */
-.navbar-list li:nth-child(3),
+/*.navbar-list li:nth-child(3),*/
 .navbar-list li:nth-child(4) {
   display: none !important;
 }
