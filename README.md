@@ -4,7 +4,7 @@ This is my personal portfolio website showcasing my projects, experience, and ba
 
 ## 🔗 Live Demo
 
-Check it out here: [rohangarim.github.io/personalwebsite](https://rohangarim.github.io/personalwebsite)
+Check it out here: [rohangarimella.com](https://rohangarimella.com)
 
 ## 🚀 Features
 
